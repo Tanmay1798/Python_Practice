@@ -23,3 +23,5 @@
 . AL (Artificial Intelligence)
 . ML (Machine Learning)
 . IOT
+
+_________________________________________________________________
