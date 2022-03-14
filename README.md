@@ -13,3 +13,13 @@
 . Portable
 . Object-oriented
 . Easy to use
+
+
+4) Where to use Python?
+. System Programming
+. Web Application Development 
+. Software Developement
+. Data Analysis
+. AL (Artificial Intelligence)
+. ML (Machine Learning)
+. IOT
