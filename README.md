@@ -37,4 +37,13 @@ Rules:-
 
 ________________________________________________________________
 
-#Interpreter vs Compiler
+# Interpreter vs Compiler
+
+INTERPRETER
+1) Translate program one statement at a time.
+2) continues translating the program until the first error is met in which case it stops. Hence debugging is easy.
+3) Programming language like Python , Ruby , etc. use Interpreter.
+
+COMPILER
+
+ 
