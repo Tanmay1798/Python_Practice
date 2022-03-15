@@ -67,8 +67,6 @@ Instruction that you write in your code and that python interpreter  ignore are 
 Denoted by 3 type
 1) #
 2) ' ' ' --------------
-    -----------
     ----------- ' ' ' .
 3) " " " --------------
-    -----------
     ----------- " " " .
