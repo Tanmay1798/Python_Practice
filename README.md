@@ -47,4 +47,28 @@ INTERPRETER
 COMPILER
 1) Scans the entire program and translate it as a whole into machine code.
 2) It generate the error message only after scanning the whole program. Hence debugging is hard as compare to Interpreter.
-3) Programming language like C , C++ , Java , etc. use Compiler
+3) Programming language like C , C++ , Java , etc. use Compiler.
+
+__________________________________________________________________
+
+# STATEMENT
+
+Instruction that you write in your code and that python interpreter can execute are called "Statement".
+eg.   a = 10
+      print(a)
+      
+      output = 10
+in that a = 10 & print(a) are statement.
+
+
+# COMMENT
+
+Instruction that you write in your code and that python interpreter  ignore are called "Comment".
+Denoted by 3 type
+1) #
+2) ' ' ' --------------
+    -----------
+    ----------- ' ' ' .
+3) " " " --------------
+    -----------
+    ----------- " " " .
