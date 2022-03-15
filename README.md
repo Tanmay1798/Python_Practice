@@ -35,3 +35,6 @@ Rules:-
 4) we can use number but not at beginning.
 5) kewywords not allowed as keyword.
 
+________________________________________________________________
+
+#Interpreter vs Compiler
