@@ -27,3 +27,11 @@
 _________________________________________________________________
 
 # VARIABLE
+Variable are names that can assigned a value and then used to refer to that value throughout your code.
+Rules:-
+1) Variable name should start with letter(a-z).
+2) Variable can start with "_"(underscore) also.
+3) In variable we can't use special character.
+4) we can use number but not at beginning.
+5) kewywords not allowed as keyword.
+
