@@ -46,4 +46,5 @@ INTERPRETER
 
 COMPILER
 1) Scans the entire program and translate it as a whole into machine code.
- 
+2) It generate the error message only after scanning the whole program. Hence debugging is hard as compare to Interpreter.
+3) Programming language like C , C++ , Java , etc. use Compiler
