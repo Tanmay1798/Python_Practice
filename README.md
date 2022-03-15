@@ -45,5 +45,5 @@ INTERPRETER
 3) Programming language like Python , Ruby , etc. use Interpreter.
 
 COMPILER
-
+1) Scans the entire program and translate it as a whole into machine code.
  
