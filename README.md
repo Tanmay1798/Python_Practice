@@ -84,3 +84,7 @@ Indentation in Python refers to the (space and tab) that are used to the beginni
 1) Using indentation for bunch of code is extremely elegant and contributes a lot to the clarity of any python program.
 2) Our code start looking well organised and more readable.
 
+______________________________________________________________________
+
+# DYNAMIC TYPING
+In python variables are reserved memory locations to store values. Python is a dynamically typed language in which it is not required to mention the type of variable while declaring. It performs type checking at run time.
