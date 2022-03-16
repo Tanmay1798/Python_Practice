@@ -95,3 +95,10 @@ eg:- a = 10
 In statically typed programming languages, which is required to mention the type of variable while declaring. It performs type checking at compile time.
 
 eg:- int a = 10
+
+_________________________________________________________________________
+
+# DATA TYPES
+
+1) Integer
+2) 
