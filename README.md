@@ -65,8 +65,11 @@ in that a = 10 & print(a) are statement.
 
 Instruction that you write in your code and that python interpreter  ignore are called "Comment".
 Denoted by 3 type
-1) #
+1) '#' Hash sign
 2) ' ' ' --------------
     ----------- ' ' ' .
 3) " " " --------------
     ----------- " " " .
+
+# KEYWORD
+Keyword are the reserved words in python. These reserved words cannot be used as function name , variable name or any other identifier.
