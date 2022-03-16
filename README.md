@@ -73,6 +73,8 @@ Denoted by 3 type
 
 # KEYWORD
 Keyword are the reserved words in python. These reserved words cannot be used as function name , variable name or any other identifier.
+
+
 eg:-
 and | as | break| class | continue | def |del |elif | else | except | False | finally |for | from | global | if| import | in | is | lamba | None | nonlocal | not | or | pass | raise | return | True | try | while | with | yield
 
