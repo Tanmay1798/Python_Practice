@@ -80,3 +80,7 @@ and | as | break| class | continue | def |del |elif | else | except | False | fi
 
 
 # INDENTATION
+Indentation in Python refers to the (space and tab) that are used to the beginning of a statement or code we write.
+1) Using indentation for bunch of code is extremely elegant and contributes a lot to the clarity of any python program.
+2) Our code start looking well organised and more readable.
+
