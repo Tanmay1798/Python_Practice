@@ -109,3 +109,19 @@ _________________________________________________________________________
 7) Set
 8) Dictonary
 9) Boolean
+
+_________________________________________________________________________
+
+# OPERATORS
+
+# ARITHMETIC OPERATORS 
+1) Addition ( + )
+2) Subtraction ( - )
+3) Multiplication ( * )
+4) Division ( / )
+5) Floor Division ( // )  {Floor Divison means division of operation where result is quotient in which digits are removed after decimal point.}
+6) Modulus ( % )
+7) Exponent ( ** ) 
+
+
+#
