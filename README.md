@@ -145,9 +145,26 @@ _________________________________________________________________________
 
 
 # LOGICAL OPERATORS
-1) "and"  { The logical "and" operator returns <True> if both expression are true or else return <False>. }
-2) "or"   { The logical "or" operator returns <True> if one expression is true or else return <False>. }
-3) "not"  { The logical "not"  operator returns <True> if expression is false. }
+1) and ->  The logical "and" operator returns True if both expression are true or else return False. 
+2) or  ->  The logical "or" operator returns True if one expression is true or else return False. 
+3) not ->  The logical "not"  operator returns True if expression is False. 
  
 
-# MEMBERSHIP
+# MEMBERSHIP OPERATORS
+1) in -> variable is present in sequence.
+2) not in  -> variable is not present in sequence.
+
+
+# IDENTITY OPERATORS 
+1) is -> variable is pointing to same object.
+2) not is -> variable is not pointing to same object.
+
+
+# BITWISE OPERATORS
+1) & -> Bitwise and
+2) | -> Bitwise 0r
+3) ^ -> Bitwise xor 
+
+
+# TRUTH
+ 
