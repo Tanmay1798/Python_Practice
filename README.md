@@ -124,7 +124,7 @@ _________________________________________________________________________
 7) Exponent ( ** ) 
 
 
-# RELATIONAL OPERATOR
+# RELATIONAL OPERATORS
 1) Greater than ( > )
 2) Less than ( < )
 3) Equal to ( == )
@@ -133,3 +133,15 @@ _________________________________________________________________________
 6) Less than or equal to ( <= )
 
 
+# ASSIGN OPERATORS
+1) Assign ( = )
+2) Add and Assign ( += )
+3) Subtract and assign ( -= )
+4) Multiplication and assign ( *= )
+5) Division and assign ( /= )
+6) Floor Division and assign ( //= )
+7) Modulus and assign ( %= )
+8) Exponent and assign ( **= )
+
+
+# 
