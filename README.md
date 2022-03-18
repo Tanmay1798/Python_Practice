@@ -144,4 +144,10 @@ _________________________________________________________________________
 8) Exponent and assign ( **= )
 
 
-# 
+# LOGICAL OPERATORS
+1) "and"  { The logical "and" operator returns <True> if both expression are true or else return <False>. }
+2) "or"   { The logical "or" operator returns <True> if one expression is true or else return <False>. }
+3) "not"  { The logical "not"  operator returns <True> if expression is false. }
+ 
+
+
