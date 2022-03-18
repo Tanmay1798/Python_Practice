@@ -124,4 +124,12 @@ _________________________________________________________________________
 7) Exponent ( ** ) 
 
 
-#
+# RELATIONAL OPERATOR
+1) Greater than ( > )
+2) Less than ( < )
+3) Equal to ( == )
+4) Not equal to ( != )
+5) Greater than or equal to ( >= )
+6) Less than or equal to ( <= )
+
+
