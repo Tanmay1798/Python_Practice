@@ -201,3 +201,14 @@ print(type(a))
 ouput = 25 
         <class 'int'>
         
+# TYPE CASTING
+
+Ther are two types "Implicit" And "Explicit".
+# 1. Implicit Type Conversion 
+Compatible data types are in general two numeric data types like int and float. It will
+convert the smaller data type to larger one to prevent any data loss. 
+For eg.; int data will be converted to float.
+
+# 2. Explicit Type Conversion
+Explicit Type Conversion, users convert the data type of an object to the required
+data type.
