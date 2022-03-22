@@ -178,3 +178,26 @@ False  True   False  True   False  True    False
 
 False  False  False  False  True   True    True
 
+
+_________________________________________________________________________
+
+# NUMERIC DATA TYPES
+Numeric data in Python is generally in three formats, namely Integer, Float, and Complex.
+
+We can create an integer variable using the two ways:
+1. Directly assigning an integer value to a variable
+eg :-
+a = 10
+print(type(a))
+
+output = <class 'int'>
+
+2. Using an int() or float() class.
+eg :-
+a = int(25)
+print(a)
+print(type(a))
+
+ouput = 25 
+        <class 'int'>
+        
