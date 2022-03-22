@@ -186,6 +186,7 @@ Numeric data type in Python is generally in three formats, namely Integer, Float
 
 We can create an integer variable using the two ways:
 1. Directly assigning an integer value to a variable
+
 eg :-
 a = 10
 print(type(a))
@@ -193,6 +194,7 @@ print(type(a))
 output = <class 'int'>
 
 2. Using an int() or float() class.
+
 eg :-
 a = int(25)
 print(a)
@@ -207,7 +209,8 @@ Ther are two types "Implicit" And "Explicit".
 # 1. Implicit Type Conversion 
 Compatible data types are in general two numeric data types like int and float. It will
 convert the smaller data type to larger one to prevent any data loss. 
-For eg.; int data will be converted to float.
+
+For eg:- int data will be converted to float.
 
 # 2. Explicit Type Conversion
 Explicit Type Conversion, users convert the data type of an object to the required
@@ -219,6 +222,10 @@ ________________________________________________________________________________
 
 String represents group of characters which enclosed either in single quotes or double quotes.
 String in python are immutable meanns the value of the object cannot be changed.
+If string occupies several lines then we can use triple single quotes or triple double quotes.
+
 eg :-
 a = "Tanmay" 
 b = 'Tanmay'
+
+
