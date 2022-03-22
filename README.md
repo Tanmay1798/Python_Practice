@@ -212,3 +212,13 @@ For eg.; int data will be converted to float.
 # 2. Explicit Type Conversion
 Explicit Type Conversion, users convert the data type of an object to the required
 data type.
+
+__________________________________________________________________________________
+
+# STRING
+
+String represents group of characters which enclosed either in single quotes or double quotes.
+String in python are immutable meanns the value of the object cannot be changed.
+eg :-
+a = "Tanmay" 
+b = 'Tanmay'
