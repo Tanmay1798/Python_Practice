@@ -239,7 +239,7 @@ b = 'Tanmay'
 # A. capitalize()
 The capitalize() method returns the copy of the string with its first character capitalized and the rest of the letters lowercased.
 
-# Syntax: string.capitalize()
+ Syntax: string.capitalize()
 
 Note:
 1.The method only capitalizes the first letter of the string. The rest of the letters are lowercased even if they are capital in the original string.
@@ -250,7 +250,7 @@ Note:
 # B. casefold()
 The casefold() method returns a string where all the characters are in lower case. It is similar to the lower() method, but the casefold() method converts more characters into lower case.
 
-# syntax: str.casefold()
+ syntax: str.casefold()
 
 Note:
 1. Symbols and Letters are not affected by the casefold() method. If the string is in lower cases then casefold() method will return original string.
@@ -262,7 +262,7 @@ The upper() method returns a string in the upper case. Symbols and numbers remai
 
 The main difference between the capitalize() and the upper() method is that the capitalize() method will capitalize only the first character of the string, whereas the upper() will convert all characters in the upper case.
 
-# syntax: str.upper()
+ syntax: str.upper()
 
 Note:
 1. The upper() method will ignore numbers and symbols.
@@ -272,7 +272,7 @@ Note:
 # D. lower()
 The lower() method returns the copy of the original string wherein all the characters are converted to lowercase. If no uppercase characters present, it returns the original string. Symbols and numbers remain unaffected by this function.
 
-# syntax: str.lower()
+ syntax: str.lower()
 
 Note:
 The lower() method will ignore numbers and symbols.
@@ -282,14 +282,14 @@ The lower() method will ignore numbers and symbols.
 # E. swapcase()
 The swapcase() method returns a copy of the string with uppercase characters converted to lowercase and vice versa. Symbols and letters are ignored.
 
-# syntax: str.swapcase()
+ syntax: str.swapcase()
 
 
 
 # F. title()
 The title() method returns a string where each word starts with an uppercase character, and the remaining characters are lowercase. If the word contains a number or a symbol, the first letter after that will be converted to upper case.
 
-# syntax: str.title()
+ syntax: str.title()
 
 Note:
 1. The numeric string and symbols are ignored. However, if an alphabet comes immediately after a number, then it converts it to uppercase.
