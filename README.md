@@ -365,4 +365,47 @@ Note:
 
 
 
-# B. 
+# B. rstrip()
+The rstrip() method returns a copy of the string by removing the trailing characters specified as argument. If the characters argument is not provided, all trailing whitespaces are removed from the string.
+Trailing characters are those characters which occur at the end of the string (rightmost part of the string).
+
+Syntax : str.rstrip(characters)
+
+characters: (optional) A char or string to be removed from the end of the string.
+
+Note:
+1. You can specify one or more characters as a string to be removed from the string in any order.
+
+
+
+# C. lstrip()
+The lstrip() method returns a copy of the string by removing leading characters specified as an argument. By default, it removes leading whitespaces if no argument passed.
+
+Leading characters occur at the start of the string (leftmost part of the string).
+
+Syntax: str.lstrip(Characters)
+
+characters: (optional) A char or string to be removed from the starting of the string.
+
+Note:
+1. You can specify one or more characters as a string to be removed from the string in any order.
+
+
+
+# D. rsplit()
+
+The rsplit() method is same as split method that splits a string from the specified separator and returns a list object with string elements. The default separator is any whitespace character such as space, \t, \n, etc.
+
+The only difference between the split() and rsplit() is when the maxsplit parameter is specified. If the maxsplit parameter is specified, then the rsplit() method starts splitting a string from the right side (from the last character), whereas the split() method starts splitting from the left side (from the first character).
+
+Returns a list object with string elements.
+
+Syntax: str.rsplit(separator, maxsplit)
+
+separator: (optional) The delimiter string. The default separator is any whitespace character such as space, \t, \n, etc.
+
+maxsplit: (optional) Defines the maximum number of splits that can be done. Thus, the list can contain at most maxsplit + 1 elements. The default maxsplit is -1 that means unlimited splits.
+
+Note:
+1. If the specified seperator does not exist, then it returns a list with the whole string as an element.
+2. The rsplit() method will raise the ValueError if a separator is an empty string ''.
