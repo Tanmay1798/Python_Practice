@@ -352,6 +352,41 @@ Note:
 
 
 # For Checking Starting and Ending
+# A. startswith()
+The startswith() method returns True if a string starts with the specified prefix. If not, it returns False. A tuple of prefixes can also be specified to look for.
+Returns True if a string prefixed with the specified prefix; otherwise, returns False.
+
+Syntax: str.startswith(prefix, start, end)
+
+prefix : Required. String or tuple of strings to look for.
+
+start : Optional. The index position of the character in the string from which the search should start.
+
+end : Optional. The index position of the character in the string at which the search should end.
+
+Note:
+1. The startswith() search is case-sensitive.
+2. The start and end parameters limit the checking of a prefix in a string as indexes. An index starts from 0, i.e. first char's index is 0, second char's index is 1, and so on. If the end parameter is not specified, then it search till the end of a string.
+
+
+
+# B. endswith()
+The endswith() function returns True if a string ends with the specified suffix (case-sensitive), otherwise returns False. A tuple of string elements can also be passed to check for multiple options. If a string ends with any element of the tuple then the endswith() function returns True.
+
+It checks for suffix from starting index to ending index position. Index starts from 0. By default, it checks the whole string if starting and ending index is not specified.
+
+Syntax: str.endswith(suffix, start, end)
+
+suffix : (Required) String or tuple of strings to look for.
+
+start : (Optional) Starting index at which search should start. Defaults to 0.
+
+end : (Optional) Ending index at which the search should end. Defaults to the last index of a string.
+
+Note:
+1. The endswith() function will always return True if an empty string is passed as a parameter.
+
+# For Remove Space The endswith() function will always return True if an empty string is passed as a parameter.
 # A. strip()
 The strip() method returns a copy of the string by removing both the leading and the trailing characters. By default, it removes leading whitespaces if no argument passed. 
 Returns a string.
@@ -391,8 +426,8 @@ Note:
 1. You can specify one or more characters as a string to be removed from the string in any order.
 
 
-
-# D. rsplit()
+# For Split and Remove Split
+# B. rsplit()
 
 The rsplit() method is same as split method that splits a string from the specified separator and returns a list object with string elements. The default separator is any whitespace character such as space, \t, \n, etc.
 
