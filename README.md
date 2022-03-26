@@ -346,3 +346,23 @@ Syntax: str.rindex(substr, start, end)
 Note:
 1. The rindex() method returns an index of the last occurance only.
 2. The rindex() method performs case-sensitive search. It raises ValueError if a substring is not found. However, the rfind() method returns -1 if substring not found.
+
+
+
+
+
+# For Checking Starting and Ending
+# A. strip()
+The strip() method returns a copy of the string by removing both the leading and the trailing characters. By default, it removes leading whitespaces if no argument passed. 
+Returns a string.
+
+Syntax: str.strip(character)
+
+characters: (Optional) a string to be removed from the starting and ending of a string. By default, it removes all leading and trailing whitespaces if no argument is specified.
+
+Note:
+1.You can specify one or more characters as a string to be removed from the string in any order.
+
+
+
+# B. 
