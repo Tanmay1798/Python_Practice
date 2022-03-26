@@ -293,3 +293,53 @@ The title() method returns a string where each word starts with an uppercase cha
 
 Note:
 1. The numeric string and symbols are ignored. However, if an alphabet comes immediately after a number, then it converts it to uppercase.
+
+
+
+
+# 2) For FIND
+# A. find()
+The find() method returns the index of the first occurence of a substring in the given string (case-sensitive). If the substring is not found it returns -1. Returns an integer value indicating an index of the first occurence of the specified substring.
+
+Syntax: str.find(substr, start, end)
+
+1. substr: (Required) The substring whose index has to be found.
+2. start: (Optional) The starting index position from where the searching should start in the string. Default is 0.
+3. end: (Optional) The ending index position untill the searching should happen. Default is end of the string.
+
+Note:
+1. The find() method returns an index of the first occurence only.
+2. The find() method performs case-sensitive search. It returns -1 if a substring is not found.
+
+
+
+# B. index()
+The index() method returns the index of the first occurence of a substring in the given string. It is same as the find() method except that if a substring is not found, then it raises an exception. An integer value indicating an index of the specified substring.
+
+Syntax: str.index(substr, start, end)
+
+Note:
+1. The index() method returns an index of the first occurance only.
+2. The index() method performs case-sensitive search. It throws ValueError if a substring not found.
+
+
+
+# C. rfind()
+The rfind() method returns the highest index of the specified substring (the last occurrence of the substring) in the given string. If the substring is not found, then it returns -1. Returns an integer value indicating an index of the last occurence of the specified substring.
+
+Syntax: str.rfind(substr, start, end)
+
+Note:
+1. The rfind() method returns an index of the last occurance only.
+2. The rfind() method performs case-sensitive search. It returns -1 if a substring is not found.
+
+
+
+# D. rindex()
+The rindex() method is same as the rfind() that returns the index of the last occurence of a substring in the given string. However, unlike the rfind() method, it raises ValueError if the substring is not found.An integer value indicating an index of the last occurence of the specified substring.
+
+Syntax: str.rindex(substr, start, end)
+
+Note:
+1. The rindex() method returns an index of the last occurance only.
+2. The rindex() method performs case-sensitive search. It raises ValueError if a substring is not found. However, the rfind() method returns -1 if substring not found.
