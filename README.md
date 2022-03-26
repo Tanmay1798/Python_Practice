@@ -297,6 +297,9 @@ Note:
 
 
 
+
+
+
 # 2) For FIND
 # A. find()
 The find() method returns the index of the first occurence of a substring in the given string (case-sensitive). If the substring is not found it returns -1. Returns an integer value indicating an index of the first occurence of the specified substring.
