@@ -427,6 +427,16 @@ Note:
 
 
 # For Split and Remove Split
+# A. split()
+The split() method splits the string from the specified separator and returns a list object with string elements. The default separator is any whitespace character such as space, \t, \n, etc. Returns a list object with string elements.
+
+Syntax: str.split(separator, maxsplit)
+1. separator: (optional) The delimiter string. The default separator is any whitespace character such as space, \t, \n, etc.
+2. maxsplit: (optional) Defines the maximum number of splits that can be done. Thus, the list can contain at most maxsplit + 1 elements. The default maxsplit is -1 that means unlimited splits.
+
+Note:
+1. If the specified seperator does not exist, then it returns a list with the whole string as an element.
+2. The split() method will raise the ValueError if a separator is an empty string ''.
 # B. rsplit()
 
 The rsplit() method is same as split method that splits a string from the specified separator and returns a list object with string elements. The default separator is any whitespace character such as space, \t, \n, etc.
