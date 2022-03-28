@@ -454,3 +454,18 @@ maxsplit: (optional) Defines the maximum number of splits that can be done. Thus
 Note:
 1. If the specified seperator does not exist, then it returns a list with the whole string as an element.
 2. The rsplit() method will raise the ValueError if a separator is an empty string ''.
+
+
+
+
+# For Join
+# A. join()
+The join() method returns a string, which is the concatenation of the string (on which it is called) with the string elements of the specified iterable as an argument. Returns a string.
+
+Syntax: str.join(iterable)
+
+iterable: (Required) An iterable object such as list, tuple, string, set, dict.
+
+
+The elements of an iterable must be string elements, otherwise it will raise a TypeError.
+The join() method concatenates the keys. If keys are not strings, then it will raise a TypeError.
