@@ -428,7 +428,7 @@ Note:
 1. You can specify one or more characters as a string to be removed from the string in any order.
 
 
-# For Split and Remove Split
+# 5) For Split and Remove Split
 # A. split()
 The split() method splits the string from the specified separator and returns a list object with string elements. The default separator is any whitespace character such as space, \t, \n, etc. Returns a list object with string elements.
 
@@ -463,7 +463,7 @@ Note:
 
 
 
-# For Join
+# 6) For Join
 # A. join()
 The join() method returns a string, which is the concatenation of the string (on which it is called) with the string elements of the specified iterable as an argument. Returns a string.
 
