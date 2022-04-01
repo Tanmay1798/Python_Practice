@@ -351,7 +351,7 @@ Note:
 
 
 
-# For Checking Starting and Ending
+# 3) For Checking Starting and Ending
 # A. startswith()
 The startswith() method returns True if a string starts with the specified prefix. If not, it returns False. A tuple of prefixes can also be specified to look for.
 Returns True if a string prefixed with the specified prefix; otherwise, returns False.
@@ -386,7 +386,7 @@ end : (Optional) Ending index at which the search should end. Defaults to the la
 Note:
 1. The endswith() function will always return True if an empty string is passed as a parameter.
 
-# For Remove Space
+# 4) For Remove Space
 # A. strip()
 The strip() method returns a copy of the string by removing both the leading and the trailing characters. By default, it removes leading whitespaces if no argument passed. 
 Returns a string.
