@@ -7,11 +7,17 @@
 --  "Guido Van Rossum" introduced python in 1991. He is a Dutch Programmer.
 
 3) Features of Python?
+
 . Easy to learn and Maintain
+
 . A broad standard library 
+
 . Open source
+
 . Portable
+
 . Object-oriented
+
 . Easy to use
 
 
