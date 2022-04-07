@@ -8,27 +8,34 @@
 
 3) Features of Python?
 
-. Easy to learn and Maintain
+ . Easy to learn and Maintain
 
-. A broad standard library 
+ . A broad standard library 
+ 
+ . Open source
 
-. Open source
+ . Portable
 
-. Portable
+ . Object-oriented
 
-. Object-oriented
-
-. Easy to use
+ . Easy to use
 
 
 4) Where to use Python?
-. System Programming
-. Web Application Development 
-. Software Development
-. Data Analysis
-. AL (Artificial Intelligence)
-. ML (Machine Learning)
-. IOT
+
+ . System Programming
+
+ . Web Application Development 
+ 
+ . Software Development
+ 
+ . Data Analysis
+ 
+ . AL (Artificial Intelligence)
+ 
+ . ML (Machine Learning)
+ 
+ . IOT
 
 _________________________________________________________________
 
