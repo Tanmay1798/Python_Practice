@@ -487,3 +487,21 @@ iterable: (Required) An iterable object such as list, tuple, string, set, dict.
 
 The elements of an iterable must be string elements, otherwise it will raise a TypeError.
 The join() method concatenates the keys. If keys are not strings, then it will raise a TypeError.
+
+
+
+
+# DATA STRUCTURE
+
+# LIST 
+
+List is a collection of different values or different types of items.
+
+propwerties of list :-
+1. Mutable
+
+2. Ordered
+
+3. Heterogenous
+
+4. Duplicate
