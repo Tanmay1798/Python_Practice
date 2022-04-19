@@ -500,8 +500,22 @@ List is a collection of different values or different types of items.
 propwerties of list :-
 1. Mutable
 
+The list is a data type that is mutable. Once a list has been created: Elements can be modified. Individual values can be replaced.
+
 2. Ordered
+
+When we say that lists are ordered, it means that the items have a defined order, and that order will not change.
 
 3. Heterogenous
 
+The items stored can be of any type numeric, string, boolean, objects, etc which makes it heterogeneous. This means that a list can have any type of data and we can iterate over this list using any type of loop.
+
 4. Duplicate
+
+Since lists are indexed, lists can have items with the same value
+CREATE LIST :
+
+The list can be created using either the list constructor or using square brackets '[]'.
+
+eg.   a = [1,2,3]
+      
