@@ -538,3 +538,16 @@ list1[_:_:_] = list1[start:end:step]
 
 
 # List Methods
+
+# UPDATE
+
+Add List Items
+
+# 1. insert()
+To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+
+a=["apple","banana","cherry"]
+a.insert(2,"watermelon")
+print(a)
+
+output :- ['apple', 'banana', 'watermelon', 'cherry']
