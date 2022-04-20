@@ -519,3 +519,19 @@ The list can be created using either the list constructor or using square bracke
 
 eg.   a = [1,2,3]
       
+# Accessing items of a List
+
+The item in a list can be accessed through Indexing and Slicing.
+
+# indexing
+
+1. Positive or forward indexing
+for eg.  list1[0] , list1[5]
+
+2. Negative or backward indexing
+for eg.  list1[-2] , list1[-12]
+
+
+# slicing
+
+list1[_:_:_] = list1[start:end:step]
