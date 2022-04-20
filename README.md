@@ -535,3 +535,6 @@ for eg.  list1[-2] , list1[-12]
 # slicing
 
 list1[_:_:_] = list1[start:end:step]
+
+
+# List Methods
