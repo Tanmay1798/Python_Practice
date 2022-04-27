@@ -539,9 +539,9 @@ list1[_:_:_] = list1[start:end:step]
 
 # List Methods
 
-# UPDATE
+# UPDATE & DELETE From List
 
-Add List Items
+# Add List Items
 
 # 1. insert()
 To insert a new list item, without replacing any of the existing values, we can use the insert() method.
@@ -571,3 +571,43 @@ a.extend(["watermelon","kiwi"])
 print(a)
 
 output :- ['apple', 'banana', 'cherry', 'watermelon', 'kiwi']
+
+
+
+# Remove List Items
+
+# 1. remove()
+The remove() method removes the specified item.
+
+a=["apple","banana","cherry"]
+a.remove("banana")
+print(a)
+
+output :- ['apple', 'cherry']
+
+
+# 2. pop()
+The pop() method removes the specified index.
+
+a=["apple","banana","cherry"]
+a.pop(1)
+print(a)
+
+output :- ['apple', 'cherry']
+
+Note :- If you do not specify the index, the pop() method removes the last item.
+
+
+# 3. del
+The del keyword also removes the specified index.
+
+a = ["apple","banana","cherry"]
+del a[1]
+print(a)
+
+output :- ['apple', 'cherry']
+
+Note :- #The del keyword can also delete the list completely.
+
+list1=["apple","banana","cherry"]
+del list1
