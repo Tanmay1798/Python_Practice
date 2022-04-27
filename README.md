@@ -551,3 +551,23 @@ a.insert(2,"watermelon")
 print(a)
 
 output :- ['apple', 'banana', 'watermelon', 'cherry']
+
+
+# 2. append()
+Accept only one parameter and it at the end of the list.
+
+a = ["apple","banana","cherry"]
+a.append("watermelon")
+print(a)
+
+output :- ['apple', 'banana', 'cherry', 'watermelon']
+
+
+# 3. extend()
+Accept the list of elements and add them at the end of the list. we can even add another list by using this method.
+
+a = ["apple","banana","cherry"]
+a.extend(["watermelon","kiwi"])
+print(a)
+
+output :- ['apple', 'banana', 'cherry', 'watermelon', 'kiwi']
