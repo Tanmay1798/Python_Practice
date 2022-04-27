@@ -611,3 +611,55 @@ Note :- #The del keyword can also delete the list completely.
 
 list1=["apple","banana","cherry"]
 del list1
+
+
+# 4. clear()
+The clear() method empties the list. The list still remains, but it has no content.
+
+list2 = ["apple","banana","cherry"]
+list2.clear()
+print(list2)
+
+output :- []
+
+
+
+# Concatenate of two lists
+
+The concatenation of two lists means merging of two lists.
+
+1. using '+' operator
+
+2. using extend()
+
+
+# 1. Using  "+" operator
+
+my_list1 = [1,2,3]
+my_list2 = [4,5,6]
+
+my_list3 = my_list1+ my_list2
+print(my_list3)
+
+Output :- [1, 2, 3, 4, 5, 6]
+
+
+# 2. using extend()
+
+a = ["apple","banana","cherry"]
+b = [1,2,3]
+a.extend(b)
+print(a)
+
+Output :- ['apple', 'banana', 'cherry', 1, 2, 3]
+
+
+
+
+# Copying a List
+
+1. using '=' operator # deep copying(The changes that we make in the original list will be reflected in the newlist.)
+
+2. Using the copy() method
+
+3. using the list() method
