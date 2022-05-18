@@ -295,6 +295,140 @@ step : It is an optional argument that determines the increment between each ind
 
 # String Format
 
+String formatting is the process of infusing things in the string dynamically and presenting the string. There are four different ways to perform string formatting:-
+
+1. Formatting with % Operator.
+2. Formatting with format() string method.
+3. Formatting with string literals, called f-strings.
+4. Formatting with String Template Class
+
+
+@ 1. Formatting string using % Operator
+
+It is the oldest method of string formatting. Here we use the modulo % operator. The modulo % is also known as the “string-formatting operator”.
+
+>Example:  
+
+print("The mangy, scrawny stray dog %s gobbled down" +
+      "the grain-free, organic dog food." %'hurriedly')
+
+
+>Output:   
+
+The mangy, scrawny stray dog hurriedly gobbled down the grain-free, organic dog food. 
+
+
+--> You can also inject multiple strings at a time and can also use variables to insert objects in the string.
+
+>Example:
+
+x = 'looked'
+print("Misha %s and %s around"%('walked',x))
+
+
+>Output: 
+
+Misha walked and looked around.
+
+
+--> ‘%s’ is used to inject strings similarly ‘%d’ for integers, ‘%f’ for floating-point values, and ‘%b’ for binary format. For all formats, and conversion methods visit the official documentation.
+
+>Example:
+
+print('Joe stood up and %s to the crowd.' %' spoke')
+
+print('There are %d dogs.' %4)
+
+
+>Output: 
+
+Joe stood up and spoke to the crowd.
+
+There are 4 dogs.
+
+
+>Float precision with the placeholder method:
+
+Floating-point numbers use the format %a.bf. Here, a would be the minimum number of digits to be present in the string; these might be padded with white space if the whole number doesn’t have this many digits. Close to this, bf represents how many digits are to be displayed after the decimal point. 
+
+> Example:
+
+print('The value of pi is: %5.4f' %(3.141592))
+
+> Output:
+
+The value of pi is: 3.1416
+
+
+--> You can use multiple format conversion types in a single print statement.
+
+
+-----------
+
+@ 2. Formatting string using format() method
+
+Format() method was introduced with Python3 for handling complex string formatting more efficiently. Formatters work by putting in one or more replacement fields and placeholders defined by a pair of curly braces { } into a string and calling the str. format(). The value we wish to put into the placeholders and concatenate with the string passed as parameters into the format function. 
+
+> Syntax: ‘String here {} then also {}’.format(‘something1′,’something2’)
+
+
+> Example  :
+
+print('We all are {}.'.format('equal'))
+
+print('{2} {1} {0}'.format('directions','the', 'Read'))
+                           
+print('a: {a}, b: {b}, c: {c}'.format(a = 1,b = 'Two',c = 12.3))  
+  
+  
+> Output :
+
+We all are equal.
+ 
+Read the directions.
+  
+a: 1, b: Two, c: 12.3  
+  
+  
+--> We can reuse the inserted objects to avoid duplication:  
+
+> Example  :
+
+print('The first {p} was alright, but the {p} {p} was tough.'.format(p = 'second'))
+
+> Output :
+
+The first second was alright, but the second second was tough. 
+
+
+--> Float precision with the.format() method:
+
+>Syntax: {[index]:[width][.precision][type]}
+
+![G1](https://user-images.githubusercontent.com/83057230/169017996-4e7dfe00-710f-42c2-a8c5-69ce44262b4c.png)
+
+
+
+
+
+
+
+
+
+
+
+                           
+                           
+                           
+                           
+
+
+
+
+
+
+
+
 # STRING METHODS
 
 # 1) For Change Case
