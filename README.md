@@ -437,12 +437,65 @@ print(f"He said his age is {2 * (a + b)}.")
                            
 He said his age is 30.                           
 
+------------------
+
+@ 4. Formatting with String Template Class
+
+In the String module, Template Class allows us to create simplified syntax for output specification. The format uses placeholder names formed by $ with valid Python identifiers (alphanumeric characters and underscores). Surrounding the placeholder with braces allows it to be followed by more alphanumeric letters with no intervening spaces. Writing $$ creates a single escaped $:
+
+> Python String Template:
+
+The Python string Template is created by passing the template string to its constructor. It supports $-based substitutions. This class has 2 key methods: 
+
+1.substitute(mapping, **kwds):
+
+This method performs substitutions using a dictionary with a process similar to key-based mapping objects. keyword arguments can also be used for the same purpose. In case the key-based mapping and the keyword arguments have the same key, it throws a TypeError. If keys are missing it returns a KeyError.
+
+2.safe_substitute(mapping, **kwds):
+
+The behavior of this method is similar to that of the substitute method but it doesn’t throw a KeyError if a key is missing, rather it returns a placeholder in the result string. 
+
+> Example 1: 
+
+from string import Template
+
+t = Template('x is $x')
+
+print (t.substitute({'x' : 1}))
+
+> Output:  
+
+x is 1
 
 
+> Example 2: 
+
+t = Template('I am $name from $city')
+
+print('Template String =', t.template)
+
+> Output: 
+
+Template String = I am $name from $city 
 
 
+-->Escaping $ Sign
 
+-->The $$ can be used to escape $ and treat as part of the string. 
 
+> Example:
+
+template = Template('$$ is the symbol for $name')
+
+string = template.substitute(name='Dollar')
+
+print(string)
+
+> Output: 
+
+$ is the symbol for Dollar 
+
+-------------
 
 # STRING METHODS
 
