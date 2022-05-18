@@ -263,7 +263,8 @@ b = 'Tanmay'
 
 
 # Indexing and Slicing
- . Indexing
+ >Indexing
+
 Indexing means referring to an element of an iterable by its position within the iterable. Each of a string’s characters corresponds to an index number and each character can be accessed using its index number. We can access characters in a String in Two ways :
 
 Accessing Characters by Positive Index Number
@@ -278,6 +279,19 @@ In this type of Indexing, we pass a Positive index(which we want to access) in s
 In this type of Indexing, we pass the Negative index(which we want to access) in square brackets. Here the index number starts from index number -1 (which denotes the last character of a string).
 
 ![Index-in-Python-1024x508](https://user-images.githubusercontent.com/83057230/169007577-97b85cb4-56a2-47e5-86ee-26b527321fc1.png)
+
+
+> Slicing
+
+Slicing in Python is a feature that enables accessing parts of the sequence. In slicing a string, we create a substring, which is essentially a string that exists within another string. We use slicing when we require a part of the string and not the complete string.
+
+string[start : end : step]
+
+start : We provide the starting index.
+
+end : We provide the end index(this is not included in substring).
+
+step : It is an optional argument that determines the increment between each index for slicing.
 
 # String Format
 
