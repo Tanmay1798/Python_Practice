@@ -67,6 +67,7 @@ __________________________________________________________________
 # STATEMENT
 
 Instructions that you write in your code and that a python interpreter can execute are called "Statement".
+In Python, the end of a statement is marked by a newline character. But we can make a statement extend over multiple lines with the line continuation character ().
 eg.   a = 10
       print(a)
       
@@ -77,6 +78,14 @@ in which a = 10 & print(a) both are statements.
 # COMMENT
 
 Instructions that you write in your code and that python interpreter ignores are called "Comment".
+
+Comments are very important while writing a program. They describe what is going on inside a program, so that a person looking at the source code does not have a hard time figuring it out.
+You might forget the key details of the program you just wrote in a month's time. So taking the time to explain these concepts in the form of comments is always fruitful.In Python, we use the hash (#) symbol to start writing a comment.
+#This is a comment #print out Hello print('Hello')
+Multi-line comments:-
+We can have comments that extend up to multiple lines. One way is to use the hash(#) symbol at the beginning of each line.
+eg """This is also a perfect example of multi-line comments"""
+
 Denoted by 3 type
 1) '#' Hash sign
 2) ' ' ' --------------
@@ -228,6 +237,17 @@ For eg:- int data will be converted to float.
 # 2. Explicit Type Conversion
 Explicit Type Conversion, users convert the data type of an object to the required
 data type.
+
+Key Points to Remember:-
+Type Conversion is the conversion of object from one data type to another data type.
+
+Implicit Type Conversion is automatically performed by the Python interpreter.
+
+Python avoids the loss of data in Implicit Type Conversion.
+
+Explicit Type Conversion is also called Type Casting, the data types of objects are converted using predefined functions by the user.
+
+In Type Casting, loss of data may occur as we enforce the object to a specific data type.
 
 __________________________________________________________________________________
 
