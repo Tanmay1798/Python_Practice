@@ -253,9 +253,9 @@ ________________________________________________________________________________
 
 # STRING
 
-String represents group of characters which enclosed either in single quotes or double quotes.
-String in python are immutable meanns the value of the object cannot be changed.
-If string occupies several lines then we can use triple single quotes or triple double quotes.
+The string represents a group of characters enclosed either in single quotes or double-quotes.
+String in python is immutable means the value of the object cannot be changed.
+If the string occupies several lines then we can use triple single quotes or triple double-quotes.
 
 eg :-
 a = "Tanmay" 
@@ -263,6 +263,21 @@ b = 'Tanmay'
 
 
 # Indexing and Slicing
+ > Indexing
+ Indexing means referring to an element of an iterable by its position within the iterable. Each of a string’s characters corresponds to an index number and each character can be accessed using its index number. We can access characters in a String in Two ways :
+
+Accessing Characters by Positive Index Number
+Accessing Characters by Negative Index Number
+
+1. Accessing Characters by Positive Index Number:
+
+In this type of Indexing, we pass a Positive index(which we want to access) in square brackets. The index number starts from index number 0 (which denotes the first character of a string).
+
+2. Accessing Characters by Negative Index Number: 
+
+In this type of Indexing, we pass the Negative index(which we want to access) in square brackets. Here the index number starts from index number -1 (which denotes the last character of a string).
+
+![Index-in-Python-1024x508](https://user-images.githubusercontent.com/83057230/169007577-97b85cb4-56a2-47e5-86ee-26b527321fc1.png)
 
 # String Format
 
@@ -275,18 +290,18 @@ The capitalize() method returns the copy of the string with its first character 
  Syntax: string.capitalize()
 
 Note:
-1.The method only capitalizes the first letter of the string. The rest of the letters are lowercased even if they are capital in the original string.
+1. The method only capitalizes the first letter of the string. The rest of the letters are lowercased even if they are capital in the original string.
 2. If the first letter is non-alphabetic, then the method doesn't convert it to a capital letter, but it converts all other letters to lowercase.
 
 
 
 # B. casefold()
-The casefold() method returns a string where all the characters are in lower case. It is similar to the lower() method, but the casefold() method converts more characters into lower case.
+The case folds() method returns a string where all the characters are in lower case. It is similar to the lower() method, but the casefold() method converts more characters into lower cases.
 
  syntax: str.casefold()
 
 Note:
-1. Symbols and Letters are not affected by the casefold() method. If the string is in lower cases then casefold() method will return original string.
+1. Symbols and Letters are not affected by the case fold() method. If the string is in lower cases then the casefold() method will return the original string.
 
 
 
