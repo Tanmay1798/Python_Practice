@@ -407,20 +407,35 @@ The first second was alright, but the second second was tough.
 
 ![G1](https://user-images.githubusercontent.com/83057230/169017996-4e7dfe00-710f-42c2-a8c5-69ce44262b4c.png)
 
+---------------
 
+@ 3. Formatted String using F-strings
 
+PEP 498 introduced a new string formatting mechanism known as Literal String Interpolation or more commonly as F-strings (because of the leading f character preceding the string literal). The idea behind f-strings is to make string interpolation simpler.
 
+To create an f-string, prefix the string with the letter “ f ”. The string itself can be formatted in much the same way that you would with str.format(). F-strings provide a concise and convenient way to embed python expressions inside string literals for formatting.
 
+> Example 1:
 
+name = 'Ele'
+ 
+print(f"My name is {name}.")
 
+> Output :
 
+My name is Ele.
 
+> Example 2:
+    
+a = 5
+ 
+b = 10
+ 
+print(f"He said his age is {2 * (a + b)}.")
 
-
+> Output :                           
                            
-                           
-                           
-                           
+He said his age is 30.                           
 
 
 
