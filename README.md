@@ -267,7 +267,7 @@ b = 'Tanmay'
 # String Format
 
 # STRING METHODS
------------------
+
 # 1) For Change Case
 # A. capitalize()
 The capitalize() method returns the copy of the string with its first character capitalized and the rest of the letters lowercased.
