@@ -263,8 +263,8 @@ b = 'Tanmay'
 
 
 # Indexing and Slicing
- > Indexing
- Indexing means referring to an element of an iterable by its position within the iterable. Each of a string’s characters corresponds to an index number and each character can be accessed using its index number. We can access characters in a String in Two ways :
+ . Indexing
+Indexing means referring to an element of an iterable by its position within the iterable. Each of a string’s characters corresponds to an index number and each character can be accessed using its index number. We can access characters in a String in Two ways :
 
 Accessing Characters by Positive Index Number
 Accessing Characters by Negative Index Number
