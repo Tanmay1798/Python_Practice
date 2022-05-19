@@ -190,7 +190,7 @@ _________________________________________________________________________
 
 # TRUTH TABLE
 
- A      B      A&B    A|B    A^B   NOT A   NOT B
+ A       B       A&B     A|B     A^B    NOT A    NOT B
  
 True   True   True   True   False  False   False
 
