@@ -190,15 +190,8 @@ _________________________________________________________________________
 
 # TRUTH TABLE
 
- A       B       A&B     A|B     A^B    NOT A    NOT B
- 
-True   True   True   True   False  False   False
+![G2](https://user-images.githubusercontent.com/83057230/169220444-bb480e62-d4b7-49e8-8926-4a72c67b0ff2.png)
 
-True   False  False  True   True   False   True
-
-False  True   False  True   False  True    False
-
-False  False  False  False  True   True    True
 
 
 _________________________________________________________________________
