@@ -785,10 +785,10 @@ list1[_:_:_] = list1[start:end:step]
 
 
 # List Methods
-
+-----------------
 # UPDATE & DELETE From List
 
-# Add List Items
+> Add List Items
 
 # 1. insert()
 To insert a new list item, without replacing any of the existing values, we can use the insert() method.
@@ -820,8 +820,7 @@ print(a)
 output :- ['apple', 'banana', 'cherry', 'watermelon', 'kiwi']
 
 
-
-# Remove List Items
+> Remove List Items
 
 # 1. remove()
 The remove() method removes the specified item.
@@ -871,7 +870,7 @@ output :- []
 
 
 
-# Concatenate of two lists
+> Concatenate of two lists
 
 The concatenation of two lists means merging of two lists.
 
@@ -903,7 +902,7 @@ Output :- ['apple', 'banana', 'cherry', 1, 2, 3]
 
 
 
-# Copying a List
+> Copying a List
 
 1. using '=' operator # deep copying(The changes that we make in the original list will be reflected in the newlist.)
 
