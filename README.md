@@ -909,3 +909,19 @@ Output :- ['apple', 'banana', 'cherry', 1, 2, 3]
 2. Using the copy() method
 
 3. using the list() method
+
+-----------
+> 1. Using  "=" operator
+
+![G3](https://user-images.githubusercontent.com/83057230/169255523-2ea35ac2-f132-48d9-a458-07134a7ccf86.png)
+
+
+> 2. Using the copy() method
+
+![G4](https://user-images.githubusercontent.com/83057230/169255656-bf399825-04b8-4db6-8374-219251d193ac.png)
+
+> 3. using the list() method
+
+![G5](https://user-images.githubusercontent.com/83057230/169255767-378f4315-40f9-46ed-b928-cbe82dbcd4d8.png)
+
+
