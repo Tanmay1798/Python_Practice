@@ -925,3 +925,5 @@ Output :- ['apple', 'banana', 'cherry', 1, 2, 3]
 ![G5](https://user-images.githubusercontent.com/83057230/169255767-378f4315-40f9-46ed-b928-cbe82dbcd4d8.png)
 
 
+> Note:
+If a new list is created from an existing list using the = operator then, a new list points to that existing list, and therefore, changes in one list will reflect in another list. The copy() method makes a shallow copy of the list so that the original list does not change when a new list is updated.
