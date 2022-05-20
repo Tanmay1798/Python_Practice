@@ -913,10 +913,15 @@ Output :- ['apple', 'banana', 'cherry', 1, 2, 3]
 -----------
 > 1. Using  "=" operator
 
+If we copy a list using = operator, the original list will also change whenever a change is made to the new list.
+
 ![G3](https://user-images.githubusercontent.com/83057230/169255523-2ea35ac2-f132-48d9-a458-07134a7ccf86.png)
 
 
 > 2. Using the copy() method
+
+The copy() method returns a shallow copy of a list. The copied list points to a different memory location than the original list, so changing one list does not affect another list.
+
 
 ![G4](https://user-images.githubusercontent.com/83057230/169255656-bf399825-04b8-4db6-8374-219251d193ac.png)
 
