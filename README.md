@@ -932,3 +932,265 @@ The copy() method returns a shallow copy of a list. The copied list points to a 
 
 > Note:
 If a new list is created from an existing list using the = operator then, a new list points to that existing list, and therefore, changes in one list will reflect in another list. The copy() method makes a shallow copy of the list so that the original list does not change when a new list is updated.
+
+
+# Sort and Reverse List
+
+# 1. sort()
+
+The sort function sorts the elements in the list in ascending order.
+
+1)
+
+mylist = [3,5,7,2,4,8]
+
+mylist.sort()
+
+print(mylist)
+
+
+Output :- 
+
+[2, 3, 4, 5, 7, 8]
+
+
+2)
+
+mylist = ['g','w','o','a','m']
+
+mylist.sort()
+
+print(mylist)
+
+
+Output :- 
+
+['a', 'g', 'm', 'o', 'w']
+
+
+# 2. reverse()
+
+The reverse function is used to reverse the elements in the list.
+
+1)
+
+mylist = [2,4,6,8,10]
+
+mylist.reverse()
+
+print(mylist)
+
+
+Output:- 
+
+[10, 8, 6, 4, 2]
+
+
+
+
+
+# Function used with List
+
+# 1. max()
+
+The "max" function returns the maximum value in the list.
+
+eg:
+
+mylist = [3, 4, 5, 6, 1]
+
+print(max(mylist))
+
+
+Output :- 
+
+6
+
+
+# 2. min()
+
+The "min" function returns the minimum value in the list.
+
+eg:
+
+mylist = [3, 4, 5, 6, 1]
+
+print(max(mylist))
+
+
+Output :- 
+
+1
+
+
+# 3. sum()
+
+The "sum" function returns the sum of all the elements in the list.
+
+eg:
+
+mylist = [3, 4, 5, 6, 1]
+
+print(sum(mylist))
+
+
+Output :- 
+
+19
+
+
+# 4. all()
+
+![image](https://user-images.githubusercontent.com/83057230/174964372-31a611ac-e2aa-403c-8c30-12b96acc10aa.png)
+
+1.
+
+![L1](https://user-images.githubusercontent.com/83057230/174967185-413a801b-f48f-48c1-86b2-9bcf186afda5.jpg)
+
+
+2.
+
+![L2](https://user-images.githubusercontent.com/83057230/174967224-3214ad5c-777b-4b09-a4ef-8212f9fd8718.png)
+
+
+3.
+
+![L3](https://user-images.githubusercontent.com/83057230/174967654-9a434500-eab4-4459-8015-64a6de769e21.jpg)
+
+
+4.
+
+![L4](https://user-images.githubusercontent.com/83057230/174967691-73461425-0e34-4fd2-aabd-75e743882bd4.jpg)
+
+
+
+# 5. any()
+
+
+![image](https://user-images.githubusercontent.com/83057230/174967912-42a32aed-7d4b-4e1d-b84b-021cf6e83e9f.png)
+
+
+1.
+
+![L6](https://user-images.githubusercontent.com/83057230/174968892-ce754258-4ba6-4f99-9610-6ae854b48902.jpg)
+
+
+2.
+
+![L7](https://user-images.githubusercontent.com/83057230/174968928-2917f6d5-aaa8-4637-b8d7-b0bd5524b828.jpg)
+
+
+3.
+
+![L8](https://user-images.githubusercontent.com/83057230/174969000-e083bbbb-6936-451a-9354-a63f01c79094.jpg)
+
+
+4.
+
+![L9](https://user-images.githubusercontent.com/83057230/174969030-33f6c2a8-b607-4179-b8fb-9c134f8b42b3.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
