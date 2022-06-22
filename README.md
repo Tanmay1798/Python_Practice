@@ -1091,23 +1091,23 @@ Output :-
 
 
 
+# Implementation of Stack and Queue using List
 
 
+# 1. Stack()
+
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO). In element isnew elementis added at one end and an element is removed from that end only.
+
+![L10](https://user-images.githubusercontent.com/83057230/175015854-fbe32110-336e-4904-b7a4-4905aeb97b01.jpg)
+
+![L11](https://user-images.githubusercontent.com/83057230/175015883-d8c75170-c6c4-47f3-90b5-b612ec2ca5b0.jpg)
 
 
+# 2. Queue()
 
+Queue works on the principle of "First-in , First Out".
 
-
-
-
-
-
-
-
-
-
-
-
+![L12](https://user-images.githubusercontent.com/83057230/175016780-33ff40b7-48eb-4c3e-9332-a828a5e3d77f.jpg)
 
 
 
