@@ -933,6 +933,7 @@ The copy() method returns a shallow copy of a list. The copied list points to a 
 > Note:
 If a new list is created from an existing list using the = operator then, a new list points to that existing list, and therefore, changes in one list will reflect in another list. The copy() method makes a shallow copy of the list so that the original list does not change when a new list is updated.
 
+-----------------------
 
 # Sort and Reverse List
 
@@ -986,7 +987,7 @@ Output:-
 [10, 8, 6, 4, 2]
 
 
-
+-------------------------
 
 
 # Function used with List
