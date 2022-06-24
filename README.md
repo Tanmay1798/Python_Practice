@@ -742,14 +742,15 @@ _______________________________________________________________________________
 
 # DATA STRUCTURE
 
-# LIST 
+# A)  LIST 
 
 List is a collection of different values or different types of items.
 
-propwerties of list :-
+List has the following characteristics :-
+
 1. Mutable
 
-The list is a data type that is mutable. Once a list has been created: Elements can be modified. Individual values can be replaced.
+The list is a data type that is mutable. Once a list has been created Elements can be modified. Individual values can be replaced.
 
 2. Ordered
 
@@ -1099,7 +1100,7 @@ Output :-
 
 # 1. Stack()
 
-A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO). In element isnew elementis added at one end and an element is removed from that end only.
+A stack is a linear data structure that stores items in a Last-An/First-Out (LIFO). In an element, is new element is added at one end and an element is removed from that end only.
 
 ![L10](https://user-images.githubusercontent.com/83057230/175015854-fbe32110-336e-4904-b7a4-4905aeb97b01.jpg)
 
@@ -1108,31 +1109,38 @@ A stack is a linear data structure that stores items in a Last-In/First-Out (LIF
 
 # 2. Queue()
 
-Queue works on the principle of "First-in , First Out".
+Queue works on the principle of "First-in, First Out".
 
 ![L12](https://user-images.githubusercontent.com/83057230/175016780-33ff40b7-48eb-4c3e-9332-a828a5e3d77f.jpg)
 
 
 
+-------------------------------------------------------------------------------
+_______________________________________________________________________________
+
+# B)   TUPLE
+
+Tuples are ordered collections of heterogeneous data that are unchangeable.
+
+Tuple has the following characteristics:
+
+1. Ordered
+
+2. Immutable
+
+3. Heterogenous
+
+4. Duplicates
 
 
+# Creating a tuple
+
+1. Using Paranthesis()
+
+2. Using tuple() constructor
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![T1](https://user-images.githubusercontent.com/83057230/175529042-f8397dca-be85-4da3-8aae-d2068f9bee71.jpg)
 
 
 
