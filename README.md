@@ -1142,9 +1142,13 @@ Tuple has the following characteristics:
 
 ![T1](https://user-images.githubusercontent.com/83057230/175529042-f8397dca-be85-4da3-8aae-d2068f9bee71.jpg)
 
+However, it is not necessary to enclose the tuple elements in parentheses. The tuple object can include elements separated by a comma without parentheses.
 
+![T3](https://user-images.githubusercontent.com/83057230/175777185-c75164e6-a4eb-4a4e-a350-f9cd704f63aa.jpg)
 
+Tuples cannot be declared with a single element unless followed by a comma.
 
+![T4](https://user-images.githubusercontent.com/83057230/175777196-3ed38288-3ddf-498d-a187-58967eab80f7.jpg)
 
 
 
