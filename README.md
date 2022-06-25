@@ -1151,6 +1151,34 @@ Tuples cannot be declared with a single element unless followed by a comma.
 ![T4](https://user-images.githubusercontent.com/83057230/175777196-3ed38288-3ddf-498d-a187-58967eab80f7.jpg)
 
 
+# Access Tuple Elements
+
+Each element in the tuple is accessed by the index in the square brackets []. An index starts with zero and ends with (number of elements - 1), as shown below.
+
+![T5](https://user-images.githubusercontent.com/83057230/175777535-5044d095-0db7-4477-b1a1-13f1a3a56af6.jpg)
+
+The tuple supports negative indexing also, the same as list type. The negative index for the first element starts from -number of elements and ends with -1 for the last element.
+
+![T6](https://user-images.githubusercontent.com/83057230/175777547-61e8d7fd-0ff3-4066-9976-44726f53f94e.jpg)
+
+If the element at the specified index does not exist, then the error "index out of range" will be thrown.
+
+![T7](https://user-images.githubusercontent.com/83057230/175777567-be91699b-7fef-4f24-9931-1bbce62cd01e.jpg)
+
+Tuple elements can be unpacked and assigned to variables, as shown below. However, the number of variables must match with the number of elements in a tuple; otherwise, an error will be thrown.
+
+![T8](https://user-images.githubusercontent.com/83057230/175777590-d8a5006a-15c8-44ca-bc90-6729eb0dafc7.jpg)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
