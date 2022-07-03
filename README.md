@@ -436,7 +436,7 @@ He said his age is 30.
 
 @ 4. Formatting with String Template Class
 
-In the String module, Template Class allows us to create simplified syntax for output specification. The format uses placeholder names formed by $ with valid Python identifiers (alphanumeric characters and underscores). Surrounding the placeholder with braces allows it to be followed by more alphanumeric letters with no intervening spaces. Writing $$ creates a single escaped $:
+In the String module, Template Class allows us to create simplified syntax for output specification. The format uses placeholder names formed by "$" with valid Python identifiers (alphanumeric characters and underscores). Surrounding the placeholder with braces allows it to be followed by more alphanumeric letters with no intervening spaces. Writing "$$" creates a single escaped "$":
 
 > Python String Template:
 
